@@ -7,7 +7,7 @@ description: "万物皆有裂痕，要看到裂痕中照进来的光，而不是
 keyword: "DYD, DYD Blog, DYD的博客, daiyadong, 代亚东, iOS, Apple, iPhone"
 url: "http://daiyadong.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
+github_repo: "https://github.com/daiyadong/daiyadong.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -19,10 +19,10 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 # SNS settings
 RSS: false
 # weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+# zhihu_username:     qiubaiying
+github_username:    daiyadong
+facebook_username:  mtnk2010
+# jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
 
 
