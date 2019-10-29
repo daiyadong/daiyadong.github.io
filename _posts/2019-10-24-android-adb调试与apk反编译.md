@@ -23,19 +23,19 @@ adb root
 ```
 
 3. 使用shell用户连接
-指定端口
-```shell
-adb connect 127.0.0.1:5554
-```
-默认端口
-```shell
-adb shell
-```
+    * 指定端口
+    ```shell
+    adb connect 127.0.0.1:5554
+    ```
+    * 默认端口
+    ```shell
+    adb shell
+    ```
 4. 使用dex2jar将dex文件反编译成jar包
 ```shell
 d2j-dex2jar.bar classes.dex
 ```
-5. 使用jd-gui.exe打开反汇编后的jar包
+5. 使用`jd-gui.exe`打开反汇编后的jar包
 可查看类似Java 代码。
 
 6. adb shell后过滤查找想找的包
