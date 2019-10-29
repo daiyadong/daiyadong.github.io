@@ -30,7 +30,7 @@ docker run -i -t -p 8888:8888 continuumio/miniconda3 /bin/bash -c "/opt/conda/bi
 ```
 使用浏览器访问
 
-http://localhost:8888, or http://<docker-machine-ip>:8888
+http://localhost:8888 or http://<docker-machine-ip>:8888
 
 ### 手动安装方式
 [miniconda手动安装](https://conda.io/en/master/miniconda.html)
@@ -64,7 +64,7 @@ jupyter notebook password
 会生成密码文件到 ~/.jupyter/jupyter_notebook_config.json
 修改py文件，将remote_access访问打开即可。
 
-> c.NotebookApp.ip='*'#163行
+> c.NotebookApp.ip='*'    #163行
 
 > c.NotebookApp.password = u'sha:ce...刚才复制的那个密文' #217行
 
