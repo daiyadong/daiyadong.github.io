@@ -106,5 +106,11 @@ friends: [
     },{
         title: "Apple Developer",
         href: "https://developer.apple.com/"
-    }
+    },{
+        title: "cnblogs",
+        href: "https://cnblogs.com/"
+    },{
+        title: "01hackcode",
+        href: "http://01hackcode.com"
+   }
 ]
