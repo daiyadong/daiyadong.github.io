@@ -29,7 +29,7 @@ netfilter内核模块所在目录
 /lib/modules/kerne_version/kernel/net/netfilter
 
 ### 规则
-![](https://wx1.sinaimg.cn/mw1024/00804KuLgy1g8gbwygdw3j30bf0gbgn6.jpg)
+![](https://i.postimg.cc/SRtVcJVZ/00804-Ku-Lgy1g8gbwygdw3j30bf0gbgn6.jpg)
 有四个表
 * filter
 * nat
@@ -49,7 +49,7 @@ raw:加愉数据包穿过防火墙的速度，提高性能。
 * 全部不匹配时，走默认的策略
 
 ### 应用层iptables相关
-![](https://wx3.sinaimg.cn/mw1024/00804KuLgy1g8gbwyg9vpj30iw0gdmxm.jpg)
+![](https://i.postimg.cc/1zxCWVS2/00804-Ku-Lgy1g8gbwyg9vpj30iw0gdmxm.jpg)
 
 ### iptables基本语法规则
 iptables命令格式:
