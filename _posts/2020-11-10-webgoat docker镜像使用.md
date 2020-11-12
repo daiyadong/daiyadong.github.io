@@ -7,7 +7,7 @@ author:     DYD 				    # 作者
 header-img: img/post-bg-debug.png 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
-    - OpenResty
+    - 渗透
 ---
 
 [webgoat使用解析](https://www.bbsmax.com/A/B0zq1OPnzv/)
