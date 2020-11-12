@@ -66,6 +66,23 @@ hello, world!
 --- error_code: 200
 
 ```
+002-test.t
+```bash
+use Test::Nginx::Socket 'no_plan';
+
+run_tests();
+
+__DATA__
+=== TEST 1: dying in init_by_lua_block
+--- http_config
+    init_by_lua_block {
+        error("I am dying!")
+    }
+--- config
+--- must_die
+--- error_log
+I am dying!
+```
 
 ```bash
 #执行测试
@@ -79,4 +96,16 @@ hello, world!
 
 #递归测试
 ./go.sh -r 
+```
+
+```bash
+t/001-test.t .. ok
+t/002-test.t .. nginx: [error] init_by_lua error: init_by_lua:2: I am dying!
+stack traceback:
+        [C]: in function 'error'
+        init_by_lua:2: in main chunk
+t/002-test.t .. ok
+All tests successful.
+Files=2, Tests=4,  2 wallclock secs ( 0.03 usr  0.11 sys +  0.57 cusr  0.50 csys =  1.21 CPU)
+Result: PASS
 ```
