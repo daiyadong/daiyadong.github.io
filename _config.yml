@@ -13,7 +13,7 @@ github_repo: "https://github.com/daiyadong/daiyadong.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "我思故我在，黑掉全世界，挺押韵的哈。"
-sidebar-avatar: /img/about-DYD-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/dyd.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
